@@ -7,6 +7,22 @@ img {
     
 }
 
+.fa-facebook {
+ padding: 10px 1px;
+    
+
+  background:#3B5998;
+    color: white;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+    float: right;
+/*  margin: 5px 2px;*/
+  
+
+}
+
 li {  display: inline; color: white; margin:30px 30px 20px 0;}
 
 
@@ -79,23 +95,27 @@ html,body {
     color: aliceblue;    
     width: 65%;
     height: 90%;
-    border: 1px solid white;
+/*    border: 1px solid white;*/
     margin:2%;
     float:left; 
     box-sizing:border-box;
      display: grid;
-    grid-gap:2px;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap:5px;
+    grid-template-columns: repeat(8,1fr); 
+    grid-template-rows:repeat(6,1fr);
     overflow: hidden;
      
     
 }
 
 .highlights > div {
-/*    background: white;*/
+
+    background-color: rgba(255,255,255,0.2);
+    color: alicebluew;
+    padding:10%;
+    position: relative;
 /*    opacity:0.1;*/
-    border: 2px solid white;
+/*    border: 2px solid white;*/
     
 }
 .raspored{
