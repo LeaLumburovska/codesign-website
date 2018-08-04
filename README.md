@@ -1,2 +1,2 @@
 # codesign-website
-Design for a hobby programming club
+Website Design for a hobby programming club
