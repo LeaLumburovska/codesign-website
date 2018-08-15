@@ -1,0 +1,51 @@
+
+
+.notes-board {
+    float: right;
+    height: 100vh;
+    width: 40%;
+    background-color: lightcoral;
+}
+
+
+.grid-item{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+    background-image: url("space.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.grid-wrapper{    
+    float:left;
+    width:60%;
+    height: 100vh;  
+    
+  
+  display: grid;
+    grid-template-rows: 1fr 2fr 0.5fr;
+ grid-template-areas:
+    
+    'menu main main main main'
+    'menu footer footer footer right'
+     'header header header header header';
+  background-color: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  
+    
+}
+
+
+
+
+body{
+    
+    margin: 0;
+    position: relative;
+
+    
+}
