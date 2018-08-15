@@ -7,6 +7,31 @@ img {
     
 }
 
+#imgbox1 {
+    
+    background: url("grid-pic1.jpeg")no-repeat center center;
+    background-size:cover;
+        
+}
+
+#imgbox2 {
+    
+    background: url("grid-pic3.jpeg")no-repeat center center;
+   background-size:cover;
+}
+
+#imgbox3 {
+    
+    background: url("grid-pic2.jpeg")no-repeat center center;
+   background-size:cover;
+}
+
+#imgbox4 {
+    
+    background: url("grid-pic4.jpeg")no-repeat center center;
+   background-size:cover;
+}
+
 .fa-facebook {
  padding: 10px 1px;
     
@@ -100,7 +125,7 @@ html,body {
     float:left; 
     box-sizing:border-box;
      display: grid;
-    grid-gap:5px;
+    grid-gap:15px;
     grid-template-columns: repeat(8,1fr); 
     grid-template-rows:repeat(6,1fr);
     overflow: hidden;
