@@ -74,17 +74,18 @@ background:royalblue;
 
 
 .grid-item{
-    font-size:1.2em;
+
   background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding:5%;
+/*  border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding:6%;
   color: white;
   
     box-sizing: border-box;  
    
-    background-image: url("space.jpeg");
+  
     background-repeat: no-repeat;
     background-size: cover;
+   
     
       display: flex;
       flex-direction: column;
@@ -92,16 +93,48 @@ background:royalblue;
     
 /*    font-family: 'Rubik Mono One', sans-serif;*/
     font-family: 'Amatic SC', cursive;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
+     font-weight: bold;
+    text-shadow: 1px 1px  2px black;
     
    
 }
+
+#aktivni-proekti{ 
+    background-image: url("notebooks2.jpeg");
+     background-position: right;
+}
+
+#volontiraj{ 
+   
+    background-image: url("notebooks4.jpeg");
+   background-position: left;
+}
+
+#prasanja{
+      background-image: url("room-computers.jpeg");
+     
+   
+}
+
+#codesign-center{
+    background-image: url("notebooks3.jpeg");     
+}
+
+#nauci-div{
+    background-image: url("notebooks.jpeg");     
+    background-position: top;
+    
+}
+
 
 .grid-wrapper{    
     float:left;
     width:60%;
     height: 100vh;  
     
+    grid-gap:7px;
+    background: white;
   
   display: grid;
     grid-template-rows: 1fr 2fr 0.5fr;
@@ -111,15 +144,11 @@ background:royalblue;
     'menu main main main main'
     'menu footer footer footer right'
      'header header header header header';
-  background-color: rgba(0, 0, 0, 0.8);
+/*  background-color: rgba(0, 0, 0, 0.8);*/
   box-sizing: border-box;
     
- 
-  
-/*
-  min-height: 0; 
-  min-width: 0; 
-*/
+   
+
 }
 
 
