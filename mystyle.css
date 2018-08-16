@@ -31,21 +31,28 @@ text-indent: 3px;
     right: 2.5vw;
     bottom: 4vh;
     color: white;
+    display:none;
 }
 .spotlight{
     position: absolute;
-    height: 60vh;
+    display: flex;    
+/*    height: 50vh;*/
+    min-height: 10vw;
     width: 20vw;
-    background: black;
+    background: white;
     bottom: 3vh;
     right: 3vw;
-    color: white;
+    font-size: 1.2vw;
+    color: black;
+    border: 2px dashed black;
     line-height: 1.7em;
+    font-family: "Courier New", Courier, monospace;
 
 }
 
 .spotlight > p {
-    margin: 20px;
+    margin: 0.5vw 0.5vh;
+    text-align: left;
 }
 
 .grid-item>button{
